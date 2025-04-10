@@ -1,0 +1,35 @@
+{
+  "name": "wt-js-02-color-switcher-timer",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://hash52-web.github.io/wt-js-02-color-switcher-timer",
+  "scripts": {
+    "start": "parcel js/index.html",
+    "build": "parcel build js/index.html --public-url /wt-js-02-color-switcher-timer/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash52-web/wt-js-02-color-switcher-timer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hash52-web/wt-js-02-color-switcher-timer/issues"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "gh-pages": "^6.1.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Timer</title>
+        <link rel="stylesheet" href="../src/css/common.css" />
+        <link rel="stylesheet" href="../node_modules/flatpickr/dist/flatpickr.min.css" />
+      </head>
+  <body>
+    <a href="../index.html">Go back</a>
+    <div class="timer-container">
+      <input type="text" id="datetime-picker" placeholder="Select date" />
+      <button id="start-btn" disabled>Start</button>
+      <button id="reload-btn">Reload</button>
+
+      <div class="timer">
+        <div class="field">
+          <span id="days">00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span id="hours">00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span id="minutes">00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span id="seconds">00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./02-timer.js"></script>
+  </body>
+</html>
